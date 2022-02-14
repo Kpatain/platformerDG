@@ -19,7 +19,7 @@ class Tableau extends Phaser.Scene{
         this.load.image('sky', 'assets/sky.png');
         this.load.spritesheet('beam',
             'assets/beam.png',
-            { frameWidth: 28, frameHeight: 21  }
+            { frameWidth: 21, frameHeight: 21  }
         );
         this.load.audio('drip', 'assets/sounds/death.mp3');
     }
